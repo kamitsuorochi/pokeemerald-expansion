@@ -1936,7 +1936,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
             "This POKéMON has gorgeous, glossy\n"
             "feathers. Many Trainers are so captivated\n"
             "by the beautiful feathers on its head that\n"
-            "they choose Pidgeot as their POKéMON."),
+            "they choose PIDGEOT as their POKéMON."),
         .pokemonScale = 269,
         .pokemonOffset = 0,
         .trainerScale = 256,
