@@ -31,10 +31,10 @@ const u8 gMarowakAlolaPokedexText[] = _(
     "pain that will never fade.");
 
 const u8 gEeveePokedexText[] = _(
-    "An Eevee has an unstable genetic makeup\n"
+    "An EEVEE has an unstable genetic makeup\n"
     "that suddenly mutates due to its\n"
     "environment. Radiation from various\n"
-    "Stones causes this Pokémon to evolve.");
+    "STONES causes this POKéMON to evolve.");
 
 // Gen 2 families
 const u8 gUnownPokedexText[] = _(
@@ -93,7 +93,7 @@ const u8 gFurfrouPokedexText[] = _(
     "Trimming its fluffy fur not only makes\n"
     "it more elegant but also increases the\n"
     "swiftness of its movements. These\n"
-    "Pokémon were the guardians of kings.");
+    "POKéMON were the guardians of kings.");
 
 const u8 gXerneasPokedexText[] = _(
     "Legends say that when the horns on\n"
@@ -123,7 +123,7 @@ const u8 gGumshoosPokedexText[] = _(
 const u8 gVikavoltPokedexText[] = _(
     "It concentrates electrical energy within\n"
     "its large jaws and uses it to zap its foes.\n"
-    "It overwhelms bird Pokémon with shocking\n"
+    "It overwhelms bird POKéMON with shocking\n"
     "beams of electrical energy.");
 
 const u8 gRibombeePokedexText[] = _(
@@ -133,10 +133,10 @@ const u8 gRibombeePokedexText[] = _(
     "They are sometimes sold as supplements.");
 
 const u8 gRockruffPokedexText[] = _(
-    "This Pokémon has lived with people since\n"
+    "This POKéMON has lived with people since\n"
     "times long ago. It can sense when its\n"
-    "Trainer is in the dumps and will stick\n"
-    "close by its Trainer's side.");
+    "TRAINER is in the dumps and will stick\n"
+    "close by its TRAINER's side.");
 
 const u8 gAraquanidPokedexText[] = _(
     "Despite what its appearance suggests,\n"
@@ -146,7 +146,7 @@ const u8 gAraquanidPokedexText[] = _(
 
 const u8 gLurantisPokedexText[] = _(
     "It requires a lot of effort to maintain\n"
-    "Lurantis's vivid coloring, but some\n"
+    "LURANTIS's vivid coloring, but some\n"
     "collectors enjoy this work and treat it\n"
     "as their hobby.");
 
@@ -158,14 +158,14 @@ const u8 gSalazzlePokedexText[] = _(
 
 const u8 gSilvallyNormalPokedexText[] = _(
     "Its trust in its partner awakens it.\n"
-    "This Pokémon is capable of changing its\n"
+    "This POKéMON is capable of changing its\n"
     "type by equipping special memories, a\n"
     "trait that is well displayed in battle.");
 
 const u8 gSilvallyMemoryPokedexText[] = _(
     "Upon awakening, its RKS System is\n"
     "activated. By employing specific\n"
-    "memories, this Pokémon can adapt its\n"
+    "memories, this POKéMON can adapt its\n"
     "type to confound its enemies.");
 
 const u8 gMiniorMeteorPokedexText[] = _(
