@@ -284,7 +284,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_NEST_BALL] =
     {
-        .name = _("Nest BALL"),
+        .name = _("NEST BALL"),
         .price = 1000,
         .description = COMPOUND_STRING(
             "A BALL that works\n"
