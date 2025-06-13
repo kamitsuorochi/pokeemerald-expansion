@@ -793,7 +793,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .weight = 25,
         .description = COMPOUND_STRING(
             "Found throughout the GALAR region, this\n"
-            "Pokémon becomes uneasy if its cheeks are\n"
+            "POKéMON becomes uneasy if its cheeks are\n"
             "ever completely empty of berries."),
         .pokemonScale = 530,
         .pokemonOffset = 13,
@@ -2622,7 +2622,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .description = COMPOUND_STRING(
             "Eating a sweet apple caused its evolution.\n"
             "A nectarous scent wafts from its body,\n"
-            "luring in the bug Pokémon it preys on."),
+            "luring in the bug POKéMON it preys on."),
         .pokemonScale = 491,
         .pokemonOffset = 12,
         .trainerScale = 256,
@@ -2807,7 +2807,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .height = 18,
         .weight = 930,
         .description = COMPOUND_STRING(
-            "These capricious syrpents have\n"
+            "These capricious SYRPENTS have\n"
             "banded together. On the rare\n"
             "occasion that their moods align,\n"
             "their true power is unleashed."),

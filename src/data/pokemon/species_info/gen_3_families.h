@@ -5032,7 +5032,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .description = COMPOUND_STRING(
             "Its iron horns grow longer a little at\n"
             "a time. They are used to determine the\n"
-            "Aggron's age. The gouges in its armor are\n"
+            "AGGRON's age. The gouges in its armor are\n"
             "worn with pride as mementos from battles."),
         .pokemonScale = 256,
         .pokemonOffset = -1,

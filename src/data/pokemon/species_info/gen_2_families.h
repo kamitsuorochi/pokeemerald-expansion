@@ -5848,7 +5848,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .description = COMPOUND_STRING(
             "In forests, it is said that there are many\n"
             "streams and towering trees where an\n"
-            "Ursaring gathers food. It walks through\n"
+            "URSARING gathers food. It walks through\n"
             "its forest collecting food every day."),
         .pokemonScale = 256,
         .pokemonOffset = 0,

@@ -1934,7 +1934,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .weight = 395,
         .description = COMPOUND_STRING(
             "This POKéMON has gorgeous, glossy\n"
-            "feathers. Many Trainers are so captivated\n"
+            "feathers. Many TRAINERs are so captivated\n"
             "by the beautiful feathers on its head that\n"
             "they choose PIDGEOT as their POKéMON."),
         .pokemonScale = 269,
