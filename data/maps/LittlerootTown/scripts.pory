@@ -1016,3 +1016,9 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "Let's go to my LAB.$"
 
 `
+
+script Temp_NewPickStarter {
+        lock
+        msgbox("Let's pick your starter!")
+        release
+}
