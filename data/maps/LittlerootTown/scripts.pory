@@ -1020,5 +1020,5 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 script Temp_NewPickStarter {
         lock
         msgbox("Let's pick your starter!")
-        release
+		release
 }
