@@ -1302,6 +1302,6 @@ const u8 gText_Rename[] = _("RENAME");
 const u8 gText_CannotSendMonToBoxHM[] = _("Cannot send that mon to the box,\nbecause it knows a HM move.{PAUSE_UNTIL_PRESS}");
 
 // NEW CONSTANTS
-const u8 gText_StarterSnivy[] = _("SNIVY, a GRASS-type POKEMON");
-const u8 gText_StarterFennekin[] = _("FENNEKIN, a FIRE-type POKEMON");
-const u8 gText_StarterPopplio[] = _("POPPLIO, a WATER-type POKEMON");
+const u8 gText_StarterSnivy[] = _("SNIVY, the GRASS SNAKE POKEMON");
+const u8 gText_StarterFennekin[] = _("FENNEKIN, the FOX POKEMON");
+const u8 gText_StarterPopplio[] = _("POPPLIO, the SEA LION POKEMON");
