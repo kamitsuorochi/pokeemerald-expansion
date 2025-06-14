@@ -31,7 +31,7 @@
 #line 85
         .trainerName = _("YATO"),
 #line 86
-        .trainerClass = TRAINER_CLASS_STRANGE_TRAINER,
+        .trainerClass = TRAINER_CLASS_PKMN_TRAINER_1,
 #line 87
         .trainerPic = TRAINER_PIC_DRAGON_TAMER,
         .encounterMusic_gender =
