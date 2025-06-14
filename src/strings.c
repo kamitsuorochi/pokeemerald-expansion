@@ -1301,6 +1301,6 @@ const u8 gText_Relearn[] = _("{START_BUTTON} RELEARN"); // future note: don't de
 const u8 gText_Rename[] = _("RENAME");
 const u8 gText_CannotSendMonToBoxHM[] = _("Cannot send that mon to the box,\nbecause it knows a HM move.{PAUSE_UNTIL_PRESS}");
 
-const u8 gTextStarterSnivy[] = _("SNIVY");
-const u8 gTextStarterFennekin[] = _("FENNEKIN");
-const u8 gTextStarterPopplio[] = _("POPPLIO");
+const u8 gText_StarterSnivy[] = _("SNIVY");
+const u8 gText_StarterFennekin[] = _("FENNEKIN");
+const u8 gText_StarterPopplio[] = _("POPPLIO");
