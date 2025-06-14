@@ -2426,4 +2426,9 @@ extern const u8 gText_Rename[]; // change nickname from summary screen
 // Switch Caught Mon into Party
 extern const u8 gText_CannotSendMonToBoxHM[];
 
+// NEW CONSTANTS
+extern const u8 gText_StarterSnivy[];
+extern const u8 gText_StarterFennekin[];
+extern const u8 gText_StarterPopplio[];
+
 #endif // GUARD_STRINGS_H
