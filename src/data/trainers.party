@@ -82,17 +82,76 @@ Music: Male
 Double Battle: No
 
 === TRAINER_SAWYER_1 ===
-Name: SAWYER
-Class: Hiker
-Pic: Hiker
+Name: YATO
+Class: Pkmn Trainer 1
+Pic: Dragon Tamer
 Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Basic Trainer
 
-Geodude
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Luxray (F) @ Choice Band  
+Ability: Strong Jaw  
+Tera Type: Electric  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Thunder Fang  
+- Crunch  
+- Ice Fang  
+- Supercell Slam  
+
+Simipour (M) @ Focus Sash  
+Ability: Torrent  
+Shiny: Yes  
+Tera Type: Water  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+IVs: 0 Atk  
+- Nasty Plot  
+- Surf  
+- Focus Blast  
+- Boomburst  
+
+Salamence (M) @ Life Orb  
+Ability: Intimidate  
+Tera Type: Dragon  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Dragon Claw  
+- Fire Fang  
+- Dual Wingbeat  
+- Dragon Dance  
+
+Skarmory (M) @ Leftovers  
+Ability: Sturdy  
+Tera Type: Steel  
+EVs: 252 HP / 232 SpD / 24 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Roost  
+- Body Press  
+- Iron Defense  
+- Substitute  
+
+Zweilous (M) @ Eviolite  
+Ability: Hustle  
+Tera Type: Dark  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Body Slam  
+- Lash Out  
+- Dragon Tail  
+- Stomping Tantrum  
+
+Quagsire (F) @ Rocky Helmet  
+Ability: Unaware  
+Tera Type: Water  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Encore  
+- Yawn  
+- Earthquake  
+- Focus Punch  
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
 Name: GRUNT

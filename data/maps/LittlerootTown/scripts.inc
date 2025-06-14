@@ -2041,20 +2041,18 @@ Temp_NewPickStarter::
 Temp_NewPickStarter_1:
 # 1023 "data/maps/LittlerootTown/scripts.pory"
 	msgbox Temp_NewPickStarter_Text_0
-# 1024 "data/maps/LittlerootTown/scripts.pory"
-	message Temp_NewPickStarter_Text_1
-# 1025 "data/maps/LittlerootTown/scripts.pory"
+# 1027 "data/maps/LittlerootTown/scripts.pory"
 	multichoice 25, 5, MULTI_TEMP_CHOOSE_STARTER, 0
-# 1026 "data/maps/LittlerootTown/scripts.pory"
+# 1028 "data/maps/LittlerootTown/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_eq Temp_NewPickStarter_4
-# 1029 "data/maps/LittlerootTown/scripts.pory"
+# 1036 "data/maps/LittlerootTown/scripts.pory"
 	compare VAR_RESULT, 1
 	goto_if_eq Temp_NewPickStarter_7
-# 1032 "data/maps/LittlerootTown/scripts.pory"
+# 1039 "data/maps/LittlerootTown/scripts.pory"
 	compare VAR_RESULT, 2
 	goto_if_eq Temp_NewPickStarter_10
-# 1035 "data/maps/LittlerootTown/scripts.pory"
+# 1042 "data/maps/LittlerootTown/scripts.pory"
 	closemessage
 	return
 
@@ -2069,9 +2067,6 @@ Temp_NewPickStarter_10:
 
 
 Temp_NewPickStarter_Text_0:
-# 1023 "data/maps/LittlerootTown/scripts.pory"
-	.string "Let's pick your starter!$"
-
-Temp_NewPickStarter_Text_1:
 # 1024 "data/maps/LittlerootTown/scripts.pory"
-	.string "Which starter will you pick?$"
+	.string "Let's pick your first partner POKéMON!\l"
+	.string "What POKéMON will you take with you?$"

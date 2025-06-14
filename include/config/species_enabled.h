@@ -246,7 +246,7 @@
 #define P_FAMILY_CLAMPERL                FALSE
 #define P_FAMILY_RELICANTH               FALSE
 #define P_FAMILY_LUVDISC                 FALSE
-#define P_FAMILY_BAGON                   FALSE
+#define P_FAMILY_BAGON                   P_GEN_3_POKEMON
 #define P_FAMILY_BELDUM                  FALSE
 #define P_FAMILY_REGIROCK                FALSE
 #define P_FAMILY_REGICE                  FALSE
@@ -372,7 +372,7 @@
 #define P_FAMILY_VULLABY                 FALSE
 #define P_FAMILY_HEATMOR                 P_GEN_5_POKEMON
 #define P_FAMILY_DURANT                  P_GEN_5_POKEMON
-#define P_FAMILY_DEINO                   FALSE
+#define P_FAMILY_DEINO                   P_GEN_5_POKEMON
 #define P_FAMILY_LARVESTA                FALSE
 #define P_FAMILY_COBALION                FALSE
 #define P_FAMILY_TERRAKION               FALSE

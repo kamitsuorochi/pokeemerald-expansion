@@ -1020,9 +1020,17 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 script Temp_NewPickStarter {
         lock
 		if (!flag(FLAG_TEMP_RECIEVED_STARTER)) {
-        	msgbox("Let's pick your first partner POKéMON!\l")
+        	msgbox(
+			"Let's pick your first partner POKéMON!\l"
+			"What POKéMON will you take with you?"
+			)
         	multichoice (25, 5, MULTI_TEMP_CHOOSE_STARTER, 0)
 			if (var(VAR_RESULT) == 0){
+				// givemon SPECIES_SNIVY, 5, ITEM_ORAN_BERRY
+				// playfanfare MUS_OBTAIN_ITEM
+				// msgbox ("Recieved SNIVY!")
+				// waitfanfare
+				// release
 				return
 			}
 			if (var(VAR_RESULT) == 1){
@@ -1031,5 +1039,6 @@ script Temp_NewPickStarter {
 			if (var(VAR_RESULT) == 2){
 				return
 			}
+			closemessage
 		 }
 }
