@@ -1020,20 +1020,16 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 script Temp_NewPickStarter {
         lock
 		if (!flag(FLAG_TEMP_RECIEVED_STARTER)) {
-        	msgbox("Let's pick your starter!")
-        	MSGBOX_YESNO
-        	if (var(VAR_RESULT) == 1){
-				message("Which starter will you pick?")
-            	multichoice (25, 5, MULTI_TEMP_CHOOSE_STARTER, 0)
-				if (var(VAR_RESULT) == 0){
-					return
-				}
-				if (var(VAR_RESULT) == 1){
-					return
-				}
-				if (var(VAR_RESULT) == 2){
-					return
-				}
-				closemessage
-       	 }}
+        	msgbox("Let's pick your first partner POKéMON!\l")
+        	multichoice (25, 5, MULTI_TEMP_CHOOSE_STARTER, 0)
+			if (var(VAR_RESULT) == 0){
+				return
+			}
+			if (var(VAR_RESULT) == 1){
+				return
+			}
+			if (var(VAR_RESULT) == 2){
+				return
+			}
+		 }
 }

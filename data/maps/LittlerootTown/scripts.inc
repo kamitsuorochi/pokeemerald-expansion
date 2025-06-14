@@ -2042,37 +2042,29 @@ Temp_NewPickStarter_1:
 # 1023 "data/maps/LittlerootTown/scripts.pory"
 	msgbox Temp_NewPickStarter_Text_0
 # 1024 "data/maps/LittlerootTown/scripts.pory"
-	MSGBOX_YESNO
-# 1025 "data/maps/LittlerootTown/scripts.pory"
-	compare VAR_RESULT, 1
-	goto_if_eq Temp_NewPickStarter_3
-	return
-
-Temp_NewPickStarter_3:
-# 1026 "data/maps/LittlerootTown/scripts.pory"
 	message Temp_NewPickStarter_Text_1
-# 1027 "data/maps/LittlerootTown/scripts.pory"
+# 1025 "data/maps/LittlerootTown/scripts.pory"
 	multichoice 25, 5, MULTI_TEMP_CHOOSE_STARTER, 0
-# 1028 "data/maps/LittlerootTown/scripts.pory"
+# 1026 "data/maps/LittlerootTown/scripts.pory"
 	compare VAR_RESULT, 0
-	goto_if_eq Temp_NewPickStarter_6
-# 1031 "data/maps/LittlerootTown/scripts.pory"
+	goto_if_eq Temp_NewPickStarter_4
+# 1029 "data/maps/LittlerootTown/scripts.pory"
 	compare VAR_RESULT, 1
-	goto_if_eq Temp_NewPickStarter_9
-# 1034 "data/maps/LittlerootTown/scripts.pory"
+	goto_if_eq Temp_NewPickStarter_7
+# 1032 "data/maps/LittlerootTown/scripts.pory"
 	compare VAR_RESULT, 2
-	goto_if_eq Temp_NewPickStarter_12
-# 1037 "data/maps/LittlerootTown/scripts.pory"
+	goto_if_eq Temp_NewPickStarter_10
+# 1035 "data/maps/LittlerootTown/scripts.pory"
 	closemessage
 	return
 
-Temp_NewPickStarter_6:
+Temp_NewPickStarter_4:
 	return
 
-Temp_NewPickStarter_9:
+Temp_NewPickStarter_7:
 	return
 
-Temp_NewPickStarter_12:
+Temp_NewPickStarter_10:
 	return
 
 
@@ -2081,5 +2073,5 @@ Temp_NewPickStarter_Text_0:
 	.string "Let's pick your starter!$"
 
 Temp_NewPickStarter_Text_1:
-# 1026 "data/maps/LittlerootTown/scripts.pory"
+# 1024 "data/maps/LittlerootTown/scripts.pory"
 	.string "Which starter will you pick?$"

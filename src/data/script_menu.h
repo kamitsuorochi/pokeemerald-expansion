@@ -783,7 +783,7 @@ static const struct MenuAction MultichoiceList_TempChooseStarter[] =
     {gText_StarterSnivy},
     {gText_StarterFennekin},
     {gText_StarterPopplio},
-}
+};
 
 static const struct MenuAction MultichoiceList_Exit[] =
 {
