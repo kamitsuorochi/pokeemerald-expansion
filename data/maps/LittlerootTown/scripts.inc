@@ -2035,31 +2035,45 @@ Temp_NewPickStarter::
 # 1021 "data/maps/LittlerootTown/scripts.pory"
 	lock
 # 1022 "data/maps/LittlerootTown/scripts.pory"
-	goto_if_unset FLAG_TEMP_RECIEVED_STARTER, Temp_NewPickStarter_1
-	return
-
+	goto_if_unset FLAG_TEMP_RECIEVED_STARTER, Temp_NewPickStarter_2
 Temp_NewPickStarter_1:
+# 1042 "data/maps/LittlerootTown/scripts.pory"
+	closemessage
+# 1043 "data/maps/LittlerootTown/scripts.pory"
+	release
+	end
+
+Temp_NewPickStarter_2:
 # 1023 "data/maps/LittlerootTown/scripts.pory"
 	msgbox Temp_NewPickStarter_Text_0
 # 1027 "data/maps/LittlerootTown/scripts.pory"
 	multichoice 25, 5, MULTI_TEMP_CHOOSE_STARTER, 0
 # 1028 "data/maps/LittlerootTown/scripts.pory"
 	compare VAR_RESULT, 0
-	goto_if_eq Temp_NewPickStarter_4
-# 1036 "data/maps/LittlerootTown/scripts.pory"
+	goto_if_eq Temp_NewPickStarter_5
+Temp_NewPickStarter_4:
+# 1035 "data/maps/LittlerootTown/scripts.pory"
 	compare VAR_RESULT, 1
-	goto_if_eq Temp_NewPickStarter_7
-# 1039 "data/maps/LittlerootTown/scripts.pory"
+	goto_if_eq Temp_NewPickStarter_8
+# 1038 "data/maps/LittlerootTown/scripts.pory"
 	compare VAR_RESULT, 2
 	goto_if_eq Temp_NewPickStarter_10
-# 1042 "data/maps/LittlerootTown/scripts.pory"
-	closemessage
-	return
+	goto Temp_NewPickStarter_1
 
-Temp_NewPickStarter_4:
-	return
+Temp_NewPickStarter_5:
+# 1029 "data/maps/LittlerootTown/scripts.pory"
+	givemon SPECIES_SNIVY, 5, ITEM_ORAN_BERRY
+# 1030 "data/maps/LittlerootTown/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 1031 "data/maps/LittlerootTown/scripts.pory"
+	msgbox Temp_NewPickStarter_Text_1
+# 1032 "data/maps/LittlerootTown/scripts.pory"
+	waitfanfare
+# 1033 "data/maps/LittlerootTown/scripts.pory"
+	release
+	goto Temp_NewPickStarter_4
 
-Temp_NewPickStarter_7:
+Temp_NewPickStarter_8:
 	return
 
 Temp_NewPickStarter_10:
@@ -2070,3 +2084,7 @@ Temp_NewPickStarter_Text_0:
 # 1024 "data/maps/LittlerootTown/scripts.pory"
 	.string "Let's pick your first partner POKéMON!\l"
 	.string "What POKéMON will you take with you?$"
+
+Temp_NewPickStarter_Text_1:
+# 1031 "data/maps/LittlerootTown/scripts.pory"
+	.string "Recieved SNIVY!$"

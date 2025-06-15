@@ -1026,12 +1026,11 @@ script Temp_NewPickStarter {
 			)
         	multichoice (25, 5, MULTI_TEMP_CHOOSE_STARTER, 0)
 			if (var(VAR_RESULT) == 0){
-				// givemon SPECIES_SNIVY, 5, ITEM_ORAN_BERRY
-				// playfanfare MUS_OBTAIN_ITEM
-				// msgbox ("Recieved SNIVY!")
-				// waitfanfare
-				// release
-				return
+				givemon (SPECIES_SNIVY, 5, ITEM_ORAN_BERRY)
+				playfanfare (MUS_OBTAIN_ITEM)
+				msgbox ("Recieved SNIVY!")
+				waitfanfare
+				release
 			}
 			if (var(VAR_RESULT) == 1){
 				return
@@ -1039,6 +1038,8 @@ script Temp_NewPickStarter {
 			if (var(VAR_RESULT) == 2){
 				return
 			}
-			closemessage
 		 }
+		 closemessage
+		 release
+		 end
 }
